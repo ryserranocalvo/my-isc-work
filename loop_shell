@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+cd ~/ncas-isc/shell/acsoe/eae-97/macehead
+for file  in *
+do 
+tail -1 $file
+done
+
